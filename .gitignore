@@ -1,0 +1,46 @@
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.xccheckout
+*.moved-aside
+.project
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.mode*
+project.xcworkspace
+*.xcuserdatad
+*.orig
+xcdebugger
+*_old.xib
+
+# App Code
+.idea
+
+# Carthage
+Carthage/
+Cartfile.resolved
+
+# Swift Package Manager
+Packages/
+.build/
+BookshelfServer/*.xcodeproj
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane
+/fastlane/report.xml
+/fastlane/test_output/*

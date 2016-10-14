@@ -1,0 +1,15 @@
+syntax = "proto3";
+ 
+message Book {
+   int64 id = 1;
+   string title = 2;
+   string author = 3;
+   int32 numberOfPages = 4;
+}
+
+message Shelf {
+   int64 id = 1;
+   string name = 2;
+   repeated Book books = 3;
+   map<string,string> keys = 4;
+}
